@@ -1,8 +1,34 @@
+Apache Tika integration to index OneDrive files into ElasticSearch. 
+
+# Why Build this?
+Because Windows search functionality [just doesn't cut it](https://answers.microsoft.com/en-us/windows/forum/windows_10-win_cortana-winpc/why-is-windows-10-search-so-bad-at-its-job/6041e4bf-c30c-4575-a52c-b6916a1e7326). 
+
+# Setup
+## Install SBT
+(see sbt instructions)
+## Start ElasticSearch
+```
+docker-compose up -d
+```
+
+## Compile and run
+```
+sbt compile
+```
+And then: 
+```
+sbt run
+```
 
 # Run test script to see if tika is working
+Just a quick script to get up and running, as a POC
 ```
 ./tika-test.sh
 ```
+Should get result of something like this:
+
+![screenshot](https://github.com/RyanQuey/es-index-onedrive/raw/master/screenshots/test-tika.stdout.png)
+
 
 # Ideas
 - Create different indexes for complex searches
