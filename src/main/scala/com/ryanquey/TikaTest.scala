@@ -1,4 +1,5 @@
 // https://gist.github.com/dportabella/f6bee43ab543798813e0
+// `this example Scala scripts executes a regex to all files recursively. it uses apache tika UniversalEncodingDetector to filter only text files. it uses a regex to find all lines containing the word "super", except if this word is part of the larger word "superstition" or "supernatural".`
 
 import java.io.File
 import java.nio.charset.Charset
@@ -8,6 +9,7 @@ import org.apache.tika.mime._
 import org.apache.tika.io._
 import org.apache.tika.parser.txt._
 // from scala-arm...only using for this file probably
+// for usage, see http://jsuereth.com/scala-arm/usage.html
 import resource._
 
 object TikaTest extends App {
