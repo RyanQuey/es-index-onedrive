@@ -1,7 +1,11 @@
 Apache Tika integration built in scala for indexing OneDrive files into ElasticSearch. 
 
-# Why Build this?
+# Why build this tool?
 Because Windows search functionality [just doesn't cut it](https://answers.microsoft.com/en-us/windows/forum/windows_10-win_cortana-winpc/why-is-windows-10-search-so-bad-at-its-job/6041e4bf-c30c-4575-a52c-b6916a1e7326). 
+
+## Use Cases
+- Primarily, for indexing all my notes that I keep in OneDrive
+- Also can use to index files stored in external hard drives
 
 # How does it work?
 Well...right now it doesn't. It's a work in progress. But the idea is that Apache Tika can parse my .doc, .pdf, .docx, .pptx, .ppt, and [even OneNote files](https://stackoverflow.com/a/41274560/6952495) so that they are machine readable. Then I will use an elasticsearch java client to index all these files. 
