@@ -48,6 +48,12 @@ Should get result of something like this:
 - Can programmatically access and scrape my OneDrive files and use perhaps in other programs, such as [my intertextuality graph project](https://github.com/RyanQuey/intertextuality-graph).
 - Add other integrations, for adding more features. For example, can use Rsync to copy OneDrive files into linux, since linux doesn't have a client for it. Then, can index within a linux box if needed. 
 - Improved GUI over the Windows 10 finder search, with expandable results for each file, so I can quickly see if the text that returned a hit is relevant to what I'm actually looking for.
+- Find a way to search several powerpoint presentations, show the text that matches within the context of the slide the matching text was found in ([currently not possible](https://answers.microsoft.com/en-us/msoffice/forum/msoffice_powerpoint-mso_other-mso_2013_release/searching-for-text-on-slides-across-multiple/ba89dfd9-dea9-4a98-a48d-941f6fee5a74) without doing your own coding)
+
+# Why not just use something like Agent Ransack
+https://www.mythicsoft.com/agentransack/information/#features
+
+Hmm...Actually maybe you should...
 
 # Credits 
 - Got some ideas from this blog and the related project: 
